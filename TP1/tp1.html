@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>MY IGUANA</title>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <style>
+  body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+  body {font-size:16px;}
+  .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+  .w3-half img:hover{opacity:1}
+  </style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3  ;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <!-- <a href="#" onclick="return false;"> -->
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Mundo das<br>Iguanas</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Início</a>
+    <a href="#descricao" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que são?</a>
+    <a href="#especies" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Quantas espécies existem?</a>
+    <a href="#alimentacao" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que comem?</a>
+    <a href="#curiosidades" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Curiosidades</a>
+  </div>
+</nav>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="inicio">
+    <h1 class="w3-jumbo"><b>Iguana</b></h1>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+  <!--      <img src="C:/Users/andre/Desktop/tpc/img2.jpg" style="width:100%" onclick="onClick(this)"> -->
+      <p><b>Reino:</b> Animalia</p>
+      <p><b>Filo:</b> Chordata</p>
+      <p><b>Classe:</b> Reptilia</p>
+      <p><b>Ordem:</b> Squamata</p>
+      <p><b>Subordem:</b> Sauria</p>
+      <p><b>Família:</b> Iguanidae</p>
+      <p><b>Género:</b> Iguana</p>
+    </div>
+    <div class="w3-half">
+      <img src="imgs/img1.jpg" style="width:80%" onclick="onClick(this)">
+    </div>
+
+
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+<!-- Descrição-->
+  <div class="w3-container" id="descricao" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Descrição</b></h1>
+    <hr>
+    <p>Iguana é um género réptil da família Iguanidae. As espécies deste género podem ser encontradas em regiões tropicais da América Central, América do Sul e Caribe.</p>
+    <p>As iguanas têm hábitos arborícolas, isto é, vivem em árvores, podendo atingir até 180 cm de comprimento. Quando são jovens as iguanas possuem uma coloração verde intensa, já maiores, apresentam, ao longo do corpo, listras escuras. A cauda de uma iguana possui dois terços do comprimento total do corpo. Iguanas podem ser criados em terrário tropical húmido, uma vez que habitam florestas tropicais.
+    </p>
+    <img src="imgs/img2.jpg" style="width:50%" onclick="onClick(this)">
+  </div>
+
+
+  <!-- Espécies -->
+  <div class="w3-container" id="especies" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Espécies</b></h1>
+    <hr>
+    <p>A família Iguanidae possuí mais de 35 espécies. Porém, dentro da família Iguanidae há apenas duas espécies do género Iguana:</p>
+    <p>-Iguana iguana (Linnaeus, 1758) - Iguana-verde (ocorre na América latina):</p>
+          <img src="imgs/iguana_verde.jpg" style="width:27%" onclick="onClick(this)">
+
+    <p>Iguana delicatissima (Laurenti, 1768) - Iguana-do-caribe (ocorre em ilhas do caribe):</p>
+    <img src="imgs/iguana_caribe.jpg" style="width:15%" onclick="onClick(this)">
+
+  <!--  <a href="imgs/iguana_caribe.jpg" onclick="onClick(this)" class="w3-image">Iguana delicatissima (Laurenti, 1768) - Iguana-do-caribe (ocorre em ilhas do caribe);</a>
+-->
+
+  </div>
+
+
+
+
+
+  <!-- Alimentação-->
+  <div class="w3-container" id="alimentacao" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Alimentação</b></h1>
+    <hr>
+    <p>Iguanas são totalmente herbívoras, geralmente alimentam-se de folhas, flores e frutos das árvores em que habitam. Em cativeiro deve-se ter um cuidado especial com a alimentação deste animal, considerando-se que é impossível replicar a dieta desta na natureza. Uma boa dieta deve ter vegetais verdes, com folhas, o que inclui, beterraba, couve, alfafa, salsa, entre outras, deve-se evitar verduras como alface, que, principalmente em excesso, fazem mal aos iguanas.</p>
+  </div>
+
+
+<!-- Curiosidades -->
+<div class="w3-container" id="curiosidades" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-green"><b>5 Curiosidades</b></h1>
+  <hr>
+
+    <li><b>Elas adoram o sol!</b></li>
+      <p>As iguanas amam um bom banho de sol, que é muito importante para sua saúde! Isso porque, os répteis precisam de uma alta incidência de luz, que auxilia na produção de vitamina B.</p>
+      <p>Somente com muita luz as iguanas podem absorver o cálcio e ter um crescimento saudável.</p>
+      <p>Na verdade, especialistas indicam que o ideal é que essas amigas de sangue frio tenham 12h de sol por dia!</p>
+    <li><b>As iguanas vivem por muitos anos</b></li>
+      <p>Se você adora a sua iguana, não se preocupe. Dentro das condições corretas, este pet pode viver até 20 anos! Para isso, basta que a iguana tenha uma alimentação adequada.</p>
+      <p>Além disso, também é necessário criar o ambiente perfeito no seu terrário, com muita luz e humidade.</p>
+      <p>Não se esqueça de fazer visitas regulares a um veterinário e procurar pelos especialistas em pets exóticos.</p>
+    <li><b>Iguanas possuem um terceiro olho</b></li>
+      <p>O chamado olho parietal é uma estrutura de retina no topo da cabeça, mais especificamente no centro. Ele não serve para ver, mas sim para controlar hormonas e a temperatura do réptil.</p>
+    <li><b>Elas são órfãs</b></li>
+      <p>Bom, na verdade, podemos dizer que os bebés iguanas possuem uma criação “diferente”. Acontece que a mãe iguana tem uma reprodução diferente dos demais bichos.</p>
+      <p>Quando põe os seus ovos, ela simplesmente cobre-os de terra e vai embora, abandonando seus filhotes.</p>
+      <p>Cabe aos bebés recém-nascidos lutarem pela sobrevivência sozinhos, desde o começo.</p>
+    <li><b>As iguanas podem passar muito tempo debaixo da água</b></li>
+    <p>As iguanas são animais aquáticos e são naturais de florestas equatorianas, com muitos rios e humidade</p>
+    <p>Dessa forma, adaptaram-se para passar longos períodos debaixo de água. Na verdade, ao contrário de outros répteis, as iguanas podem ficar mais de 25 minutos sem precisar de respirar!</p>
+  </ol>
+
+</div>
+<!-- End page content -->
+</div>
+
+
+<!--autor -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Da autoria de: <a href="https://github.com/andregclvs" title="github" target="_blank" class="w3-hover-opacity">andregclvs</a></p></div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
