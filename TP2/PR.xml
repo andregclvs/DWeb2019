@@ -25,7 +25,7 @@
     <deliverables>
         <deliverable url="PR.dtd">DTD do Project Record (DTD)</deliverable>
         <deliverable url="ex6.txt">Solução exercício 6 da ficha 3 (TXT)</deliverable>
-        <deliverable url="ex7.dtd">Solução exercício 7 da ficha 3 (DTD)</deliverable>
+        <deliverable url="arq.dtd">Solução exercício 7 da ficha 3 (DTD)</deliverable>
     </deliverables>
     <data>30-09-2019</data>
 </project_record>
