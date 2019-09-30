@@ -1,0 +1,5 @@
+Exercício 6
+
+a) //IDENTI[../CONCEL=" Amares "]
+b) //ARQELEM[TIPO/@ASSUNTO="arqueossitio"]/CONCEL
+c) //ARQELEM/DESARQ[../TIPO/@ASSUNTO="arqueossitio" and contains(../CONCEL, "Montalegre")] 
