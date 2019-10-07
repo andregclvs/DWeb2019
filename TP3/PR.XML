@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP3</keyname>
+        <title>Projeto corresponde ao TPC da UC Desenvolvimento de Aplicações Web</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>01/10/2019</bdate>
+        <edate>08/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Criação de um XSL para transformar o pr.xml numa página html.</p>
+        <p>Criação de um XSL para transformar o xml dos arqueossítios em várias páginas hmtl.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr.xml">XML do project record</deliverable>
+        <deliverable path="./pr.xsl">XSL do project record</deliverable>
+        <deliverable path="./pr.html">HTML do project record</deliverable>
+        <deliverable path="./arq.xml">XML dos arqueossitios</deliverable>
+        <deliverable path="./arq.xsl">XSL dos arqueossitios </deliverable>
+        <deliverable path="./html/index.html">indice dos arqueossitios</deliverable>
+    </deliverables>
+</pr>
