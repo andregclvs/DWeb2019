@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP4</keyname>
+        <title>Servidor de ficheiros</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>08/10/2019</bdate>
+        <edate>15/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Criação de um XSL para transformar o xml dos arqueossítios em várias páginas xml e posteriormente usar stylesheet para transformar o XML em HTML..</p>
+        <p>Criação de um servidor em nodejs que sirva os ficheiros, ou seja, responde aos pedidos</p>
+        <p>Para que possamos receber um pedido pelo url, usamos o nodejs com o modulo http. Com essa informação vamos poder abrir o ficheiro pedido pelo url.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">XML do project record</deliverable>
+        <deliverable path="pr.xsl">XSL do project record</deliverable>
+        <deliverable path="pr.html">HTML do project record</deliverable>
+        <deliverable path="arq.xml">XML dos arqueossitios</deliverable>
+        <deliverable path="xml-split.xsl">Stylesheet que faz o split dos arqueossítios</deliverable>
+        <deliverable path="arq2html.xsl">Stylesheet base para transformar cada ARQELEM</deliverable>
+        <deliverable path="dataset/">diretoria com o resultado de xslt do arq</deliverable>
+        <deliverable path="servidor.js">Servidor de nodejs</deliverable>Servidor de nodejs
+    </deliverables>
+</pr>
