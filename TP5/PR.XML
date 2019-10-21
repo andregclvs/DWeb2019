@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP5</keyname>
+        <title>Gestor de Tarefas</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>15/10/2019</bdate>
+        <edate>22/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O quinto trabalho prático consiste na contrução de uma aplicação para gerir a realização de tarefas.</p>
+        <p> Esta aplicação foi construída com recurso ao <i>NodeJS</i> e ao <i>Pug</i></p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">XML do project record</deliverable>
+        <deliverable path="pr.html">HTML do project record</deliverable>
+        <deliverable path="erro.pug">Página de erro</deliverable>
+        <deliverable path="layout.pug">Página de layout</deliverable>
+        <deliverable path="form-tarefa.pug">Página principal</deliverable>    
+        <deliverable path="stylesheets/w3.css">Stylesheet da aplicação</deliverable>
+        <deliverable path="gestaoTarefas.js">Servidor da aplicação</deliverable>
+        <deliverable path="tarefas.json">Base de Dados JSON</deliverable>
+    </deliverables>
+</pr>
