@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP6</keyname>
+        <title>Aplicação para arquivos sonoros</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>22/10/2019</bdate>
+        <edate>29/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O sexto trabalho prático consistiu na criação de aplicação para arquivos sonoros em que fosse possível seguir modelo CRUD .</p>
+        <p>Para a listagem de todos os registos basta aceder a página inicial e aparecerão todos os registos guardados até ao momento.</p>
+        <p>Para atualização de um registo já existente o utilizador deverá carregar em "Ver" para que as suas informações apareçam no formulário e depois disso poderá alterar todos os campos à exceção do campo Título visto que este funciona como identificador único da música.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.html">HTML do Project Record</deliverable>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="routes/index.js">Tratamento de todos os pedidos que chegam ao servidor</deliverable>
+        <deliverable path="views/layout.pug">Layout da aplicação</deliverable>
+        <deliverable path="arqson.json">Ficheiro da Base de Dados</deliverable>
+        <deliverable path="public/javascripts/ver.js">Função para ver um registo individual</deliverable>
+        <deliverable path="public/javascripts/apagar.js">Função para apagar um registo</deliverable>
+        <deliverable path="public/javascripts/update.js">Função para atualizar um registo</deliverable>
+    </deliverables>
+</pr>
