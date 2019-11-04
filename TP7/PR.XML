@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP7</keyname>
+        <title>Aplicação para filmes</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>30/10/2019</bdate>
+        <edate>04/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O sétimo trabalho prático consistiu na continuação de uma aplicação para filmes desenvolvida na aula e na resolução de uma query relativa ao MongoDB .</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">Project Record deste TPC</deliverable>
+        <deliverable path="PR.html">Versão HTML do Project Record deste TPC</deliverable>
+        <deliverable path="filmes/app.js">Servidor em Node.js - Arquivo Sonoro</deliverable>
+        <deliverable path="filmes/bin/www">Ficheiro para Executar o Servidor</deliverable>
+        <deliverable path="filmes/public/javascripts/">Ficheiros Javascript do Cliente</deliverable>
+        <deliverable path="filmes/public/stylesheets/">Folhas de Estilo do Cliente em CSS</deliverable>
+        <deliverable path="filmes/views/">Templates das Páginas HTML</deliverable>
+        <deliverable path="filmes/controllers/">Funções de Interação com a Base de Dados</deliverable>
+        <deliverable path="filmes/models/">Modelos dos Documentos da Base de Dados</deliverable>
+        <deliverable path="filmes/query.txt">Queries da aula para resolver</deliverable>
+    </deliverables>
+</pr>
