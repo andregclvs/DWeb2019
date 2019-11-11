@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Prémios Nobel de Daw
+    table.w3-table-all
+        tr
+            th Identificador
+            th Ano
+            th Categoria
+        each premio in lista
+            tr
+                td= premio._id
+                td= premio.year
+                td= premio.category
+    address 
+        a(href="http://localhost:3000/") HomePage

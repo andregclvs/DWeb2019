@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Laureados prémios Nobel de Daw
+    table.w3-table-all
+        tr
+            th Nome
+        each laureado in lista
+            tr
+                td= laureado._id
+    address 
+        a(href="http://localhost:3000/") HomePage

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Laureados prémios Nobel de Daw
+    table.w3-table-all
+        tr
+            th Categorias
+        each categoria in lista
+            tr
+                td= categoria
+    address 
+        a(href="http://localhost:3000/") HomePage
