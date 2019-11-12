@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de entidades de Daw
+    table.w3-table-all
+        tr
+            th Estado
+            th Sigla
+            th SIOE
+            th Designação
+            th Internacional
+            th Id
+        each ent in lista
+            tr
+                td= ent.estado
+                td= ent.sigla
+                td= ent.sioe
+                td= ent.designacao
+                td= ent.internacional
+                td
+                    a(href="http://localhost:3000/"+ent.id) Ver
