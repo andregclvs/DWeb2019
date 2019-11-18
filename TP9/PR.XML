@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>TP9</keyname>
+        <title>Mongo import</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>12/11/2019</bdate>
+        <edate>19/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Criação de um script para importar ficheiros para MongoDB</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">XML do project record</deliverable>
+        <deliverable path="pr.html">HTML do project record</deliverable>
+        <deliverable path="importfile.js">mongoimport</deliverable>
+    </deliverables>
+</pr>
