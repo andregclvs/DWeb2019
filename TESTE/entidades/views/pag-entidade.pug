@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  .w3-container.w3-section
+    .w3-card-4
+      header.w3-container.w3-blue
+        //h1.w3-display-middle=ent.designacao
+    w3.container
+        h2 Tipologias
+        table.w3-table-all.w3-section
+            tr
+                th Sigla
+                th Designação
+            each t in topo
+                tr
+                    td=t.sigla 
+                    td=t.designacao 
+    w3.container
+        h2 Participante
+        table.w3-table-all.w3-section
+            tr
+                th Tipo de participação
+                th Título
+            each p in par
+                tr
+                    td=p.tipoPar
+                    td=p.titulo
+    w3.container
+        h2 Dono
+        table.w3-table-all.w3-section
+            tr
+                th Titulo
+            each d in dono
+                tr
+                    td=d.titulo
+    address 
+        a(href="http://localhost:7777/") HomePage

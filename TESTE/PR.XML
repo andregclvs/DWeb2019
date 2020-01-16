@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <metadata>
+        <keyname>Teste</keyname>
+        <title>Exercícios</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>16/01/2020</bdate>
+        <edate>16/01/2020</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>80368</identifier>
+            <name>André da Silva Gonçalves</name>
+            <email>a80368@alunos.uminho.pt</email>
+            <git>https://github.com/andregclvs/DWeb2019</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>Utilização de um script para importar ficheiros para MongoDB</p>
+        <p>Para colocar a aplicação a funcionar fazer npm start</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">XML do Project Record</deliverable>
+        <deliverable path="importfile.js">mongoimport</deliverable>
+        <deliverable path="dataset.json">Ficheiro da Base de Dados</deliverable>
+        <deliverable path="musicas/app.js">Servidor em Node.js</deliverable>
+        <deliverable path="musicas/bin/www">Ficheiro para Executar o Servidor</deliverable>
+        <deliverable path="musicas/controllers/">Funções de Interação com a Base de Dados</deliverable>
+        <deliverable path="musicas/models/">Modelos dos Documentos da Base de Dados</deliverable>
+        <deliverable path="entidades/app.js">Servidor em Node.js</deliverable>
+        <deliverable path="entidades/bin/www">Ficheiro para Executar o Servidor</deliverable>
+        <deliverable path="entidades/routes/">Funções de Interação com a Base de Dados</deliverable>
+        <deliverable path="entidades/views/">Templates das Páginas HTML</deliverable>
+
+
+    </deliverables>
+</pr>
